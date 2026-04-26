@@ -1,0 +1,4 @@
+{
+  "packages": ["npm:pi-subagents"],
+  "sessionDir": ".pi/sessions"
+}
