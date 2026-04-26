@@ -1,4 +1,4 @@
 {
-  "packages": ["npm:pi-subagents"],
+  "packages": ["npm:pi-subagents","npm:context-mode"],
   "sessionDir": ".pi/sessions"
 }
