@@ -1,7 +1,8 @@
 ---
 name: worker
 description: General-purpose subagent with full capabilities
-model: openai-codex/gpt-5.5
+model: gpt-5.4-nano
+thinking: xhigh
 systemPromptMode: replace
 inheritProjectContext: true
 inheritSkills: false
