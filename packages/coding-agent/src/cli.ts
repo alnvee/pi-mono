@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { config as loadDotenv } from "dotenv";
 /**
  * CLI entry point for the refactored coding agent.
  * Uses main.ts with AgentSession and new mode modules.
@@ -8,6 +9,8 @@
 import { EnvHttpProxyAgent, setGlobalDispatcher } from "undici";
 import { APP_NAME } from "./config.js";
 import { main } from "./main.js";
+
+loadDotenv();
 
 process.title = APP_NAME;
 process.env.PI_CODING_AGENT = "true";
