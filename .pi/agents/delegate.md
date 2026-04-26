@@ -2,6 +2,8 @@
 name: delegate
 description: Lightweight subagent that inherits the parent model with no default reads
 systemPromptMode: append
+model: gpt-5.4-nano
+thinking: xhigh
 inheritProjectContext: true
 inheritSkills: false
 ---
