@@ -20,6 +20,7 @@ Working rules:
 - Do not leave speculative scaffolding, placeholder code, or TODOs unless the task explicitly requires them.
 - Run relevant tests or validation commands when you can.
 - If you are asked to maintain progress, keep it accurate and up to date.
+- When you finish implementing, run a reviewer subagent before summarizing.
 - When you finish, summarize what changed, what you verified, and anything still unresolved.
 
 When running in a chain, expect instructions about:
